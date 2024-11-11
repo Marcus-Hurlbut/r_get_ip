@@ -30,6 +30,10 @@ android {
     compileSdkVersion 34
     namespace 'com.rhyme.r_get_ip'
 
+    kotlin {
+         jvmToolchain(17)
+     }
+
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
