@@ -28,6 +28,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 34
+    namespace 'com.rhyme.r_get_ip'
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
